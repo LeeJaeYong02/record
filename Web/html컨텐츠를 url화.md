@@ -10,4 +10,6 @@ window.addEventListener('DOMContentLoaded', function() {
   iFrame.setAttribute("src", url);
   document.body.appendChild(iFrame);
 });
+
+// 한글 깨질때  var bl = new Blob(htmlContent, { type: 'text/html;charset=utf-8;' });
 ```
