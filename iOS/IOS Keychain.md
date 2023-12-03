@@ -1,5 +1,3 @@
-demo/** linguist-documentation=false
-demo/** linguist-vendored=false
 
 ## Keychain 이란 Apple에서 제공하는 암호화된 데이터 저장 공간(encrypted database)을<br/> 의미하며, 금융 정보, 인증서, 토큰 정보등의 데이터는 해당 공간의 저장하는것이 원칙이다.
 
