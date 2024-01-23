@@ -182,7 +182,7 @@ poi-ooxml : https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml <br/>
 	@RequestMapping(value = "/downloadPoi", method = RequestMethod.GET)
 	public void downloadPoi(HttpServletResponse response) throws  Exception {
 		ApachePoiUtil apachePoiUtil = new ApachePoiUtil();
-		apachePoiUtil.ex_excelWriteAndDownload(response);
+		apachePoiUtil.ExcelDownload(response);
 	}
 
 ```
